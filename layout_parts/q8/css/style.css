@@ -2,4 +2,296 @@
 
 /* 回答はここに書いてね */
 
+/* Q8-1 */
+.btn {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.sm_btn {
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0 15px;
+  line-height: 26px;
+}
+
+.md_btn {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 32px;
+}
+
+.lg_btn {
+  border-radius: 7px;
+  font-size: 24px;
+  padding: 0 25px;
+  line-height: 38px;
+}
+
+.common {
+  color: #fff;
+  background-color: #00bcd4;
+  margin-left: 0;
+}
+
+.error {
+  color: #fff;
+  background-color: #ff4081;
+}
+
+.disabled {
+  color: #fff;
+  background-color: #e5e5e5;
+}
+
+.disabled:hover {
+  cursor: default;
+}
+
+.shadow {
+  color: #222;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+/* Q8-2 */
+/* 汎用クラス */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.list_item {
+  margin-top: 20px;
+}
+
+.list_item:first-child {
+  margin-top: 0;
+}
+
+.list_item:last-child {
+  text-align: right;
+}
+
+.list_title {
+  width: 100px;
+  float: left;
+  text-align: right;
+  line-height: 25px;
+}
+
+.item_content {
+  float: right;
+  width: 180px;
+}
+
+.must_item:after {
+  content: "*";
+  color: red;
+}
+
+.text_box {
+  box-sizing: border-box;
+  line-height: 12px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.text_box:focus {
+  box-shadow: 0 0 7px #00bcd4;
+}
+/* 汎用クラス ----ここまで*/
+.container {
+  box-sizing: border-box;
+  background-color: #ecf1f2;
+  padding: 20px;
+  width: 740px;
+  margin: 0 auto;
+}
+
+.form_title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form_title:before {
+  content: "";
+  background-color: #ccc;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.form_title h1 {
+  font-size:24px;
+  font-weight: bold;
+  background-color: #ecf1f2;
+  display: inline-block;
+  position: relative;
+  padding-right: 10px;
+}
+
+.main_item {
+  width: 300px;
+  float: left;
+}
+
+.upper_item {
+  margin-bottom: 20px;
+}
+
+.input_lists {
+  margin-bottom: 20px;
+}
+
+/*  radio button*/
+
+.gender {
+  display: none;
+}
+
+.gender_label:hover {
+  cursor: pointer;
+}
+
+.gender:checked + .radio_text:after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+}
+
+.radio_text {
+  padding: 3px 3px 3px 20px;
+  position: relative;
+}
+
+.radio_text:before {
+  content: "";
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 50%;
+}
+
+/*  radio button*/
+
+.select_triangle {
+  position: relative;
+}
+
+.select_triangle:before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  height: 8px;
+  width: 8px;
+  border-right: solid 2px #ccc;
+  border-bottom: solid 2px #ccc;
+  transform: rotate(45deg);
+}
+
+.selectbox {
+  background-color: #fff;
+  box-sizing: border-box;
+  line-height: 12px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.selectbox:hover {
+  cursor: pointer;
+}
+/* checkbox */
+.checkbox {
+  display: none;
+}
+
+.checkbox:checked + .twenty_label:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 2px;
+  height: 8px;
+  width: 16px;
+  border-left: solid 3px #00bcd4;
+  border-bottom: solid 3px #00bcd4;
+  transform: rotate(-45deg);
+}
+
+.twenty_label {
+  padding-left: 24px;
+  position: relative;
+}
+
+.twenty_label:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border: solid 1px #ccc;
+  background-color: #fff;
+}
+
+/* checkbox */
+.bottom_item button {
+  border: none;
+  padding: 0 10px;
+  float: right;
+}
+
+.side_item {
+  width: 380px;
+  float: right;
+}
+
+.message {
+  box-sizing: border-box;
+  height: 203px;
+  width: 203px;
+  padding: 10px;
+  resize: none;
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  appearance: none;
+  font-size: 12px;
+}
+
+.message:focus {
+  box-shadow: 0 0 7px #00bcd4;
+}
 /* 回答はここに書いてね */

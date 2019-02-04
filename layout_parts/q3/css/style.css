@@ -2,4 +2,28 @@
 
 /* 回答はここに書いてね */
 
+.tb1 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+td, th {
+  border: solid #dedede 1px;
+  padding: 10px 0;
+}
+
+th {
+  background-color: #2244aa;
+  color: white;
+}
+
+tr:last-child {
+  border-top: dashed #000 2px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+
 /* 回答はここに書いてね */
