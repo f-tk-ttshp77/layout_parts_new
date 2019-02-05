@@ -8,59 +8,56 @@
   clear: both;
 }
 
-.box1 {
+.box_q7-1 {
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
-}
-
-.left_box1 {
-  float: left;
-}
-
-.right_box1 {
   margin-left: 50px;
   float: left;
 }
 
+.box_q7-1:first-child {
+  margin-left: 0;
+}
+
 /* Q7-2 */
-.box2 {
+.box_q7-2 {
   display: table;
   font-size: 16px;
 }
 
-.left_box2 {
+.left_box_q7-2 {
   display: table-cell;
   width: 205px;
   vertical-align: middle;
 }
 
-.right_box2 {
+.right_box_q7-2 {
   display: table-cell;
   width: 205px;
   padding-left: 50px;
 }
 
 /* Q7-3 */
-.box3 {
+.box_q7-3 {
   display: inline-block;
   font-size: 16px;
   width: 205px;
   vertical-align: middle;
 }
 
-.right_box3 {
+.right_box_q7-3 {
   margin-left: 50px;
 }
 
 /* Q7-4 */
-.lgbox4 {
+.lgbox_q7-4 {
   display: flex;
   align-items: flex-end;
+  justify-content: space-around;
 }
 
-.box4 {
-  margin: 0 auto;
+.box_q7-4 {
   width: 205px
 }
 
@@ -71,10 +68,6 @@
   vertical-align: top;
 }
 
-.const_text {
-
-}
-
 .var_box {
   display: inline-block;
   padding-left: 350px;
@@ -82,9 +75,5 @@
   box-sizing: border-box;
   width: 100%;
   vertical-align: top;
-}
-
-.var_text {
-
 }
 /* 回答はここに書いてね */

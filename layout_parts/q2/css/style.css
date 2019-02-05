@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 .container {
   width: 900px;
   padding: 20px;
-  overflow: hidden;
   background-color: #eff3f4;
   margin: 0 auto;
 }
@@ -16,13 +21,13 @@
   word-break: break-all;
 }
 
-.thumb_1 {
+.thumb_left {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.thumb_2 {
+.thumb_right {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;

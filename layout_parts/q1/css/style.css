@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.clearfix {
+.clearfix:after {
   display: block;
   content: "";
   clear: both;
@@ -12,7 +12,6 @@
   background-color: #eff3f4;
   margin: 0 auto;
   padding: 20px;
-  overflow: hidden;
 }
 
 .sm_box {

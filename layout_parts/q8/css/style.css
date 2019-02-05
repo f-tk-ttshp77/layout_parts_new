@@ -6,9 +6,6 @@
 .btn {
   display: inline-block;
   margin-left: 10px;
-}
-
-.btn:hover {
   cursor: pointer;
 }
 
@@ -266,10 +263,16 @@
 }
 
 /* checkbox */
-.bottom_item button {
+.form_btn {
   border: none;
   padding: 0 10px;
   float: right;
+  outline: none;
+}
+
+.form_btn:active {
+  color: #00bcd4;
+  background-color: #fff;
 }
 
 .side_item {
